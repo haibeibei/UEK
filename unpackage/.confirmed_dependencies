@@ -1,0 +1,131 @@
+{
+  "teacher.html": {
+    "resources": [
+      "css/teacher.css",
+      "goldteacher.html",
+      "index.html"
+    ],
+    "refer": [
+      "goldteacher.html",
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "teacher.html",
+      "img/img/qq.png",
+      "css/comment.css",
+      "img/img/1_02.png",
+      "img/img/shouye6_07.png",
+      "img/img/shouye6_12.png",
+      "img/img/shouye6_26.png",
+      "img/img/shouye6_23.png",
+      "js/rem.js",
+      "img/img/shouye6_15.png",
+      "css/index.css",
+      "img/img/shouye6_08.png",
+      "img/img/shouye6_20.png",
+      "img/img/logo.png",
+      "img/img/shouye6_03.png",
+      "img/img/shouye6_16.png",
+      "img/img/shouye6_11.png",
+      "img/banner_02.png",
+      "img/img/shouye_01.png",
+      "student.html",
+      "report.html",
+      "hotquestion.html",
+      "aboutus.html",
+      "front.html",
+      "zxdk.html"
+    ],
+    "refer": [
+      "teacher.html",
+      "student.html",
+      "report.html",
+      "hotquestion.html",
+      "aboutus.html",
+      "front.html",
+      "zxdk.html"
+    ]
+  },
+  "goldteacher.html": {
+    "resources": [
+      "css/goldteacher.css",
+      "index.html"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "student.html": {
+    "resources": [
+      "css/student.css",
+      "index.html"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "report.html": {
+    "resources": [
+      "font/iconfont.css",
+      "font/iconfont.woff",
+      "css/report.css",
+      "index.html"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "hotquestion.html": {
+    "resources": [
+      "index.html",
+      "img/tqq.gif",
+      "css/hotquestion.css",
+      "img/qq.gif",
+      "img/zandown.png",
+      "img/zan.png",
+      "img/qzone.gif",
+      "img/wechat.png",
+      "img/sina.gif"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "aboutus.html": {
+    "resources": [
+      "img/about_002.png",
+      "index.html",
+      "css/aboutus.css",
+      "img/about_004.png",
+      "img/about_003.png",
+      "img/about_001.png"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "front.html": {
+    "resources": [
+      "img/news.png",
+      "index.html",
+      "img/table.png",
+      "css/front.css",
+      "img/rocket.png",
+      "img/label.png",
+      "img/roket2.png",
+      "img/course.png",
+      "img/table2.png"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "zxdk.html": {
+    "resources": [
+      "css/common.css",
+      "css/zxdk.css"
+    ]
+  }
+}

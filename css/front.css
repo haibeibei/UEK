@@ -1,0 +1,198 @@
+header{
+	width: 100%;
+	height: 0.89rem;
+	background-color: #007be3;
+	text-align: center;
+	font-family: "微软雅黑";
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+.header{
+	margin:0 auto;
+	padding: 0.16rem;
+	width: 31%;
+}
+header .header a{
+	display: block;
+	text-align: center;
+	float: left;
+	
+}
+header .header img{
+	width: 0.7rem;
+	height: 0.67rem;
+	
+}
+header h3{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.68rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+}
+.bannerimg{
+	background: url(../img/banner_02.png) no-repeat;
+	height: 4.31rem;
+	background-size: cover;
+	background-position: center center;
+}
+body{
+	background: #F5F6FA;
+}
+.title{
+	width: 100%;
+	padding: 0.24rem;
+	font-size: 0.18rem;
+	box-sizing: border-box;
+}
+.title a{
+	color: #000000;
+}
+.item1{
+	width: 100%;
+	padding: 0.24rem 0.24rem;
+	background: #fff;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.item1 ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.item1 ul li span{
+	font-size: 0.22rem;
+}
+.item1 ul li img{
+	width:1.21rem;
+	height: 1.21rem;
+}
+.item2{
+	width: 100%;
+	background: #fff;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+	
+}
+.item2 .blue{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	float:left;
+	margin-right: 0.2rem;
+	margin-top:0.06rem;
+}
+.item2 p{
+	padding:0 0.24rem;
+	font-size: 0.22rem;
+}
+.item2 p span{
+	color:#01B5FF;
+}
+.dashed{
+	border-bottom: 1px dashed black;
+	padding:0 0.18rem;
+	height: 1px;
+	width: 6.48rem;
+	margin: 0 auto;
+	margin: 0.15rem 0;
+	margin-left:0.24rem;
+}
+.item2 .imgbox{
+	width: 100%;
+	text-align: center;
+}
+.item2 .imgbox img{
+	width: 100%;
+}
+.item2 .job{
+	padding: 0 0.24rem;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+.item2 .job img{
+	display: block;
+	float: left;
+}
+.item2 .job p{
+	padding-left: 0.2rem;
+	float: left;
+}
+.copyright{
+	width: 100%;
+	height: 0.92rem;
+	text-align: center;
+	padding-top:0.3rem;
+	line-height: 0.35rem;
+	font-size: 0.20rem;
+	color: #666666;
+}
+.item2 ul{
+	overflow: hidden;
+	width:100%;
+}
+.item2 ul li{
+	float: left;
+	text-align: center;
+}
+.item2 ul li p{
+	margin: 0 auto;
+	text-align: center;
+}
+.item2 ul li .name{
+	position: relative;
+	
+}
+.item2 ul li:first-child .name1{
+	border-left: 1px dashed #01B5FF;
+    margin:0 auto;
+    width: 85%;
+    font-size: 0.22rem;
+    padding:0.2rem 0;
+	
+}
+.namecircle{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #94E0FF;
+	border-radius: 50%;
+	position: absolute;
+	left:0.045rem;
+	bottom: 0.22rem;
+	
+}
+.namecircle1{
+	width: 0.12rem;
+	height: 0.12rem;
+	background: #01B5FF;
+	border-radius: 50%;
+	position: absolute;
+	left:0.03rem;
+	bottom: 0.03rem;
+}
+.item2 .salary .name1{
+	margin:0 auto;
+    width: 85%;
+    font-size: 0.22rem;
+    padding:0.2rem 0;
+    color: #FFA201;
+    text-align: center;
+}
+
+.item2 .benefits .name1{
+	margin:0 auto;
+    
+    font-size: 0.22rem;
+    padding:0.2rem 0;
+    text-align: center;
+
+}
+.item2 .course img{
+	width: 100%;
+	
+}

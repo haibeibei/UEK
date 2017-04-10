@@ -1,0 +1,152 @@
+header{
+	width: 100%;
+	height: 0.89rem;
+	background-color: #007be3;
+	text-align: center;
+	font-family: "微软雅黑";
+	position: fixed;
+	top: 0;
+}
+.header{
+	margin:0 auto;
+	padding: 0.16rem;
+	width: 31%;
+}
+header .header a{
+	display: block;
+	text-align: center;
+	float: left;
+	
+}
+header .header img{
+	width: 0.7rem;
+	height: 0.67rem;
+	
+}
+header h3{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.68rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+}
+.bannerimg{
+	background: url(../img/banner_02.png) no-repeat;
+	height: 4.31rem;
+	background-size: cover;
+	background-position: center center;
+}
+body{
+	background: #F5F6FA;
+}
+.title{
+	width: 100%;
+	padding: 0.24rem;
+	font-size: 0.18rem;
+	box-sizing: border-box;
+}
+.title a{
+	color: #000000;
+}
+.itembox{
+	width: 100%;
+	padding: 0 0.24rem 0.1rem 0.24rem;
+}
+.item{
+	width: 100%;
+	height: 7.25rem;
+	background: #fff;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+	
+}
+	.blue{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	float:left;
+	margin-right: 0.2rem;
+	margin-top:0.06rem;
+}
+h2{
+	margin-bottom: 0.15rem;
+}
+.dashed{
+	border-bottom: 1px dashed black;
+	padding:0 0.18rem;
+	height: 1px;
+	width: 6.20rem;
+	margin: 0 auto;
+	margin-bottom: 0.15rem;
+}
+p{
+	font-size: 0.22rem;
+	color: #666666;
+}
+.item1{
+	width: 100%;
+	height: 2.74rem;
+	background: #fff;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+	
+}
+.item1 .blue{
+	width: 4px;
+	height: 20px;
+	background: #01B5FF;
+	float:left;
+	margin-right: 0.2rem;
+	margin-top:0.06rem;
+}
+.item1 .img{
+	margin:0 auto;
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	height: 1.8rem;
+}
+.item1 .img img{
+	width: 100%;
+	
+}
+.col-l-4{
+    width: 100%;
+    height: 2rem;
+    padding: 0.37rem;	
+}
+.item3{
+	width: 100%;
+	height: 1.33rem;
+	background: #fff;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+}
+.item4{
+	margin:0 auto;
+	text-align: center;
+	margin-top: 0.35rem;
+}
+.copyright{
+	width: 100%;
+	height: 0.92rem;
+	text-align: center;
+	padding-top:0.3rem;
+	line-height: 0.35rem;
+	font-size: 0.20rem;
+	color: #666666;
+}
+.copyright{
+	width: 100%;
+	height: 0.92rem;
+	text-align: center;
+	padding-top:0.3rem;
+	line-height: 0.35rem;
+	font-size: 0.20rem;
+	color: #666666;
+}

@@ -1,0 +1,280 @@
+
+header{
+	width: 100%;
+	height: 0.89rem;
+	background-color: #007be3;
+	text-align: center;
+	font-family: "微软雅黑";
+	position: fixed;
+	top: 0;
+}
+.header{
+	margin:0 auto;
+	padding: 0.16rem;
+	width: 31%;
+}
+header .header a{
+	display: block;
+	text-align: center;
+	float: left;
+	
+}
+header .header img{
+	width: 0.7rem;
+	height: 0.67rem;
+	
+}
+header h3{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.68rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+}
+.bannerimg{
+	background: url(../img/banner_02.png) no-repeat;
+	height: 4.31rem;
+	background-size: cover;
+	background-position: center center;
+}
+.tubiao{
+	background: #F5F6FA;
+	width: 100%;
+	height: 4.84rem;
+	padding:0 0.3rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.tubiao>li {
+    width:25%;
+    float: left;
+    padding-top: 0.3rem;
+    
+    
+}
+.tubiao li .white{
+	width: 1.56rem;
+	height: 1.96rem;
+	text-align: center;
+    font-size: 0.24rem;
+    color: #000;
+    margin:0 auto;
+}
+.tubiao li a{
+	display: block;
+	background: #fff;
+	width: 100%;
+	height: 1.56rem;
+	border-radius: 0.25rem;
+	padding-top: 0.25rem;
+	/*padding-left: 0.25rem;*/
+	box-sizing: border-box;
+	text-align: left;
+	line-height: 0.7rem;
+	text-align: center;
+}
+.tubiao .a-left a{
+	padding-left: 0.25rem;
+}
+.tubiao  li a img{
+	width: 1.05rem;
+	height: 1.05rem;
+}
+.tubiao h3{
+	display: block;
+	padding-top: 0.20rem;
+	font-weight: normal;
+}
+.title{
+	width: 100%;
+	height: 0.655rem;
+	background: #fff;
+	text-align: center;
+	color: #207FBE;
+	line-height: 0.655rem;
+}
+.top{
+	width: 100%;
+	height:2.18rem;
+	background: #fff;
+	overflow: hidden;
+	border-top: 1px solid #EEEEEE;
+}
+.top a{
+	color: #000000;
+}
+.top li{
+	width: 50%;
+	float: left;
+	height: 2.18rem;
+	padding-top:0.3rem;
+	
+}
+.top li:first-child{
+    border-right: 1px solid #EEEEEE;	
+}
+.top li .text{
+	text-align: left;
+	width: 50%;
+	float: left;
+	line-height: 0.35rem;
+	padding-top: 0.2rem;
+	padding-left: 0.2rem;
+}
+.top li .img{
+	width: 50%;
+	float: right;
+}
+.top li .img img{
+	width: 1.53rem;
+}
+.top h2{
+	font-size: 0.24rem;
+	font-weight: normal;
+}
+.top h3{
+	font-size: 0.18rem;
+	font-weight: normal;
+	color: #999999;
+}
+.bottom{
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 0.7rem;
+	display: flex;
+	align-items: center;
+}
+.bottom li{
+	width: 33.33333%;
+	float: left;
+	text-align: center;
+	padding: 0.38rem 0 0.48rem 0.16rem;
+	box-sizing: border-box;
+	border-right: 1px solid #EEEEEE;
+}
+.bottom li:nth-child(3){
+	border-right: none;
+}
+.bottom li .img{
+	float: left;
+	width: 33.333%;
+}
+.bottom li .img img{
+	width: 100%;
+}
+.bottom li .text{
+	width: 100%;
+}
+.bottom li .text a{
+	color: #000000;
+}
+.bottom li .text h2{
+	font-size: 0.24rem;
+	font-weight: normal;
+}
+.bottom li .text h3{
+	font-size: 0.18rem;
+	font-weight: normal;
+    color: #999999;
+}
+.contact{
+	width: 100%;
+	height: 0.92rem;
+	background: #e7e7e7;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+}
+.contact .part1{
+	width: 30%;
+	height: 100%;
+	padding:0.1rem 0.2rem;
+	line-height: 0.92rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.contact .part1 img{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	display: block;
+	
+
+}
+.contact .part1 a{
+	display: inline-block;
+	color: #1D1D1D;
+	font-size: 0.25rem;
+	padding-left: 0.1rem;
+}
+.contact .part2{
+	width: 40%;
+	height: 100%;
+	padding:0.1rem 0.2rem;
+	
+	display: flex;
+	justify-content: center;
+	margin-top: -0.15rem;
+	float: left;
+	background: #FF8D12;
+	border-radius: 0.1rem;
+	box-shadow: 0 0  0.25rem #FF8D12 ;
+	padding-top: 0.3rem;
+
+}
+.contact .part2 img{
+	width: 0.37rem;
+	height: 0.37rem;
+	float: left;
+	display: block;
+	
+
+}
+.contact .part2 a{
+	display: inline-block;
+	color: #fff;
+	font-size: 0.25rem;
+	padding-left: 0.1rem;
+	
+}
+.contact .part3{
+	width: 30%;
+	height: 100%;
+	padding:0.1rem 0.2rem;
+	line-height: 0.92rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.contact .part3 .circle{
+	width: 0.33rem;
+	height: 0.33rem;
+	background: #FF2A0E;
+	border-radius: 50%;
+	line-height: 0.33rem;
+	text-align: center;
+	margin-top:-0.2rem;
+}
+.contact .part3 img{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	display: block;
+	
+
+}
+.contact .part3 a{
+	display: inline-block;
+	color: #1D1D1D;
+	font-size: 0.25rem;
+	padding-left: 0.1rem;
+}

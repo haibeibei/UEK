@@ -1,0 +1,258 @@
+header{
+	width: 100%;
+	height: 0.89rem;
+	background-color: #007be3;
+	text-align: center;
+	font-family: "微软雅黑";
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+.header{
+	margin:0 auto;
+	padding: 0.16rem;
+	width: 31%;
+}
+header .header a{
+	display: block;
+	text-align: center;
+	float: left;
+	
+}
+header .header img{
+	width: 0.7rem;
+	height: 0.67rem;
+	
+}
+header h3{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.68rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+}
+.bannerimg{
+	background: url(../img/banner_02.png) no-repeat;
+	height: 4.31rem;
+	background-size: cover;
+	background-position: center center;
+}
+body{
+	background: #F5F6FA;
+}
+.title{
+	width: 100%;
+	padding: 0.24rem;
+	font-size: 0.18rem;
+	box-sizing: border-box;
+}
+.title a{
+	color: #000000;
+}
+.option{
+	width: 93.6%;
+	/*padding: 0 0.24rem 0.1rem 0.24rem;*/
+	box-sizing: border-box;
+	border:2px solid #01B5FF;
+	border-radius: 0.16rem;
+	height: 0.84rem;
+	margin:auto;
+	margin-bottom: 0.21rem;
+}
+.option .ui{
+	width: 36.9%;
+	height: 0.81rem;
+	background:#01B5FF ;
+	border-radius: 0.12rem;
+	color: #fff;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 0.25rem;
+	position: relative;
+	float: left;
+	
+}
+.option .ui .sanjiao{
+	width: 0.18rem;
+	border-top: 0.12rem solid rgba(1,181,255,1);
+	border-left: 0.08rem solid rgba(0,0,0,0);
+	border-right: 0.08rem solid rgba(0,0,0,0);
+	border-bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin:auto
+}
+.option .front{
+	width: 31.55%;
+	float:left;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.25rem;
+}
+.option .php{
+	width: 31.55%;
+	float:left;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.25rem;
+}
+.itembox{
+	width: 100%;
+	padding: 0 0.24rem 0.1rem 0.24rem;
+}
+.item{
+	width: 100%;
+	height: 2.7rem;
+	background: #fff;
+	padding: 0.2rem;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.2rem;
+}
+.itemimg{
+	width:2.3rem;
+	height: 2.3rem;
+	background: #C8C8C8;
+	float: left;
+}
+.item .text{
+	overflow: hidden;
+	text-align: left;
+	margin-left: 0.3rem;
+	width: 60%;
+	height: 2rem;
+}
+.item h2{
+	
+	float: left;
+	font-weight: normal;
+}
+.item .underline{
+	box-sizing: border-box;
+	border-bottom: 1px dashed black;
+	width: 0.85rem;
+	margin:0.05rem 0;
+}
+.item span{
+	font-size: 0.2rem;
+	font-weight: normal;
+	float: right;
+	color: #FF9300;
+}
+.item h2 em{
+	font-style: normal;
+	color: #01B5FF;
+	display: inline-block;
+	margin-bottom: 0.15rem;
+}
+/*.page{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0 0.37rem;
+	justify-content: space-between;
+}
+.page a{
+	color: #000;
+	display: block;
+}
+
+.page .circle1{
+	width: 0.32rem;
+	height: 0.32rem;
+	border:1px solid #CBCBCB;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+}
+.page .circle2{
+	width: 0.26rem;
+	height: 0.26rem;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top:0.015rem;
+	left: 0.02rem;
+	text-align: center;
+	line-height: 0.26rem;
+	float: left;
+	font-size:0.15rem
+	}
+	
+	.page .rect1{
+	width: 0.58rem;
+	height: 0.31rem;
+	border:1px solid #CBCBCB;
+	border-radius: 0.16rem;
+	position: relative;
+	float: left;
+}
+.page .rect2{
+	width: 0.5rem;
+	height: 0.25rem;
+	border: 1px solid black;
+	border-radius: 0.16rem;
+	position: absolute;
+	top:0.02rem;
+	left: 0.03rem;
+	text-align: center;
+	line-height: 0.25rem;
+	float: left;
+	}
+.page .recolor2{
+	border:1px solid #fff;
+	color: #fff;
+}
+.page .recolor1{
+	background: #01B5FF;
+	box-shadow: 0 0.05rem 0.08rem  #01B5FF;
+}
+.page .recolor3{
+	background: #FAFAFA;
+	border: 1px solid #E0DFE0;
+	box-shadow: 0.02rem 0.02rem 0.02rem #E0DFE0 inset;
+}*/
+.page{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	padding: 0 0.3rem;
+	padding-top: 0.2rem;
+}
+.page a{
+	color: #000;
+	margin-right: 0.10rem;
+	height: 0.32rem;
+	display: block;
+	float: left;
+}
+.page a img{
+   height: 100%;
+}
+.page p{
+	display: inline-block;
+	float: left;
+	line-height: 0.32rem;
+	margin-right: 0.1rem;
+}
+.page .pagermr{
+	margin-right: 0.3rem;
+}
+.page .pagemr{
+	margin-right: 0;
+}
+.copyright{
+	width: 100%;
+	height: 0.92rem;
+	text-align: center;
+	padding-top:0.3rem;
+	line-height: 0.35rem;
+	font-size: 0.20rem;
+	color: #666666;
+}

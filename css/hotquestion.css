@@ -1,0 +1,224 @@
+header{
+	width: 100%;
+	height: 0.89rem;
+	background-color: #007be3;
+	text-align: center;
+	font-family: "微软雅黑";
+	position: fixed;
+	top: 0;
+}
+.header{
+	margin:0 auto;
+	padding: 0.16rem;
+	width: 31%;
+}
+header .header a{
+	display: block;
+	text-align: center;
+	float: left;
+	
+}
+header .header img{
+	width: 0.7rem;
+	height: 0.67rem;
+	
+}
+header h3{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.68rem;
+}
+.banner{
+	width: 100%;
+	height: auto;
+}
+.bannerimg{
+	background: url(../img/banner_02.png) no-repeat;
+	height: 4.31rem;
+	background-size: cover;
+	background-position: center center;
+}
+body{
+	background: #F5F6FA;
+}
+.title{
+	width: 100%;
+	padding: 0.24rem;
+	font-size: 0.18rem;
+	box-sizing: border-box;
+}
+.title a{
+	color: #000000;
+}
+.itembox{
+	width: 100%;
+	padding: 0 0.24rem 0.1rem 0.24rem;
+}
+.item{
+	width: 100%;
+	/*height: 12.31rem;*/
+	background: #fff; 
+	overflow: hidden;
+	
+	
+}
+	.blue{
+	width: 0.04rem;
+	height:0.2rem;
+	background: #01B5FF;
+	float:left;
+	
+	margin:0.18rem 0.24rem;
+}
+h2{
+	margin-bottom: 0.15rem;
+	padding-top: 0.12rem;
+	
+}
+.dashed{
+	border-bottom: 1px dashed black;
+	height: 1px;
+	width: 6.30rem;
+	margin: 0 auto;
+	margin-bottom: 0.15rem;
+	margin-left: 0.25rem;
+	
+}
+p{
+	font-size: 0.22rem;
+	color: #666666;
+	padding:0 0.24rem;
+}
+.box{
+	width: 100%;
+	height: 3.62rem;
+	background: #474747;
+	margin-bottom: 0.4rem;
+}
+
+.dashed1{
+	border-bottom: 1px dashed black;
+	height: 1px;
+	width: 6.35rem;
+	margin: 0 auto;
+	margin-left: 0.25rem;	
+	margin-top:0.3rem
+}
+.item .share{
+	width: 100%;
+	padding: 0 0.24rem;
+	/*height: 0.90rem;*/
+	line-height: 0.8rem;
+	display: flex;
+	
+	
+	
+}
+.item .share p{
+	display: inline-block;
+	padding:0;
+}
+.item .share img{
+	height: 0.4rem;
+	margin-top: 0.18rem;
+	margin-left: 0.1rem;
+}
+.item .share .zan{
+    flex-grow: 3;
+}
+.item .share .zan img{
+    float:right;
+}
+.nextpage{
+	width: 100%;
+	padding: 0.29rem 0.24rem;
+	height: 1.23rem;
+	
+}
+.nextpage p:first-child{
+	margin-bottom:0.09rem ;
+}
+.box-quesion{
+	float: left;
+	width: 0.14rem;
+	height:0.14rem ;
+	box-sizing: border-box;
+	border-radius: 50%;
+	padding-top: 0.03rem;
+	box-shadow: 0.01rem  0.01rem 0.15rem #74BCFA;
+    margin-top: 0.08rem;
+}
+.box-quesion .dot{
+	margin: auto;
+	width: 0.06rem;
+	height:0.06rem ;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: #01B5FF;
+}
+.zhengwen{
+	
+   width: 100%;
+   margin: auto;
+   background: #FFFFFF;
+   box-sizing: border-box;
+   padding: 0rem 0.3rem ;
+   overflow: hidden;
+   margin-bottom:0.1rem;
+   padding-bottom: 0.3rem;
+}
+.zhengwen p{
+	width: 97%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 0.16rem;
+	font-size: 0.24rem;
+	color: #666666;
+	
+}
+.zhengwen p:last-child{
+	color: #01B5FF;
+}
+.zhengwen .more{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #FF9300;
+	line-height: 0.72rem;
+	box-sizing: border-box;
+	border-bottom: 0.01rem dashed #999;
+}
+.gaisghu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin: auto;
+}
+.box-zi{
+	float: left;
+	width:0.06rem ;
+	height:0.22rem ;
+	background: #01B5FF;
+   margin:0.32rem 0.2rem 0rem 0.33rem ;
+}
+.gaisghu span{
+	display: block;
+	width:85.5%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 0.26rem;
+	padding-bottom: 0.15rem;
+	font-size: 0.25rem;
+	font-weight: bolder;
+	
+}  
+.copyright{
+	width: 100%;
+	height: 0.92rem;
+	text-align: center;
+	padding-top:0.3rem;
+	line-height: 0.35rem;
+	font-size: 0.20rem;
+	color: #666666;
+}

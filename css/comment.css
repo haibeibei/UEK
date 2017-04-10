@@ -1,0 +1,59 @@
+ body{
+         	font-family:"Helvetica";
+           -webkit-overflow-scrolling:touch;
+            overflow-scrolling: touch;
+            font-size: 0.14rem;
+  }
+ a,input,form,button{
+           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+           -webkit-appearance: none;
+}
+*{
+        	-webkit-text-size-adjust:100%;
+        	text-size-adjust: 100%;
+        	-webkit-user-select:none ;
+            user-select:none ;
+        	max-height:9999999px; 
+        	padding: 0px;
+        	margin: 0px;
+        	list-style: none;    
+        	box-sizing: border-box;
+        	font-family: "微软雅黑";
+        	text-decoration: none;
+}
+.col-l-1{
+	width: 8.3333%;
+}
+.col-l-2{
+	width: 16.6667%;
+}
+.col-l-3{
+	width: 25%;
+}
+.col-l-4{
+	width: 33.3333%;
+}
+.col-l-5{
+	width: 41.6667%;
+}
+.col-l-6{
+	width: 50%;
+}
+.col-l-7{
+	width: 58.3333%;
+}
+.col-l-8{
+	width: 66.6667%;
+}
+.col-l-9{
+	width: 75%;
+}
+.col-l-10{
+	width: 83.3333%;
+}
+.col-l-11{
+	width: 91.6667%;
+}
+.col-l-12{
+	width: 100%;
+}

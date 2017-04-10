@@ -1,0 +1,162 @@
+/*头部*/
+
+
+    /*底部*/
+.content-list {
+	position: fixed;
+	bottom: 0px;
+    width: 100%;
+    height:auto;
+    background: #e7e7e7;
+    overflow: hidden;
+}
+.content-list .part1{
+	float: left;
+	width: 30%;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: left;
+    line-height:1rem;
+    background: #e7e7e7;
+
+}
+.content-list .part1 i {
+	float: left;
+	display: block;
+    width:25%;
+    height: auto;
+    box-sizing: border-box;
+    padding-left: 0.28rem;
+    padding-top: 0.29rem;
+     
+}
+.content-list .part1 i img{
+	width: 0.32rem;
+    height: 0.32rem;
+    display: block;
+}
+.content-list .part1 span{
+	float: left;
+    font-size: 0.26rem;
+    box-sizing: border-box;
+   padding-left: 0.17rem;
+
+}
+.content-list .part2 {
+	float: left;
+	width: 40%;
+    background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.15rem #ff8d12;
+    box-sizing: border-box;
+      padding-top: 0.20rem;
+       padding-bottom: 0.29rem;
+    
+}
+.content-list .part2 i {
+	float: left;
+	display: inline-block;
+    width:40%;
+    height: auto;
+    box-sizing: border-box;
+    padding-left: 0.71rem;
+    padding-top: 0.08rem;
+  
+     
+}
+.content-list .part2 i img{
+	width: 0.36rem;
+	width: 0.36rem;
+	display: block;
+}
+.part2 span {
+    float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+
+ .content{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #F5F6FA;
+	box-sizing: border-box;
+}
+.content .title{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0.3rem 0rem  0.4rem 0.24rem;
+}
+.title a{
+	text-decoration: none;
+	color: #494747;
+	font-size: 0.18rem;
+}
+.title .icon-you2:before{
+	font-size: 0.18rem;
+	color: #494747;
+}
+
+.gaisghu{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin: auto;
+}
+.box-zi{
+	float: left;
+	width:0.06rem ;
+	height:0.22rem ;
+	background: #01B5FF;
+   margin:0.32rem 0.2rem 0rem 0.33rem ;
+}
+.gaisghu span{
+	display: block;
+	width:85.5%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 0.26rem;
+	padding-bottom: 0.15rem;
+	font-size: 0.25rem;
+	font-weight: bolder;
+	
+}  
+
+/*分页*/
+.fenye{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #FFFFFF;
+	padding-top: 0.18rem;
+	box-sizing: border-box;
+	padding-bottom: 0.08rem;
+}
+.fenye img{
+	width: 100%;
+	height: auto;
+}
+
+  /*权限*/
+.footer{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #F5F6FA;
+	font-size: 0.3rem;
+	
+}
+.footer p {
+    color: #666;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.18rem;
+    box-sizing: border-box;
+}  
